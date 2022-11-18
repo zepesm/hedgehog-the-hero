@@ -1,0 +1,29 @@
+Output dir: W:\work\inflexion\c64\hedgehog-kickc\out
+parsing
+flex pass 1
+B2: Unnamed $2000 - $3f3f Packed size $1476 (65%) Pack start: $eb84
+B2: Unnamed $0400 - $07e7 Packed size $01dd (47%) Pack start: $fe1d
+B2: Unnamed $d800 - $dbe8 Packed size $0130 (30%) Pack start: $feca
+B2: Unnamed $2000 - $3f3f Packed size $19df (82%) Pack start: $e61b
+B2: Unnamed $0400 - $07e7 Packed size $02ee (75%) Pack start: $fd0c
+B2: Unnamed $d800 - $dbe8 Packed size $01b2 (43%) Pack start: $fe48
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: main.prg
+
+Memory Map
+----------
+Program-segment:
+
+Basic-segment:
+  $0801-$080c Basic
+
+Code-segment:
+  $080d-$09c3 Code
+
+Data-segment:
+  $1000-$2dc1 MEM_MUSIC
+  $4000-$79de Data
+
+Writing Vice symbol file: main.vs

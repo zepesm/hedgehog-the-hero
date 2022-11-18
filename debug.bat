@@ -1,0 +1,1 @@
+kickc -emu "c:\C64\c64debugger\C64Debugger.exe -layout 10 -wait 2500 -prg" -odir .\out .\main.c
